@@ -1,6 +1,6 @@
 package com.tarefas.tarefas.model;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -22,7 +22,7 @@ public class Tarefa {
     private int id;
     private String nome;
     private double custo;
-    private Date dataLimite;
+    private LocalDate dataLimite;
     private Integer ordemApresentacao;
 
 }
