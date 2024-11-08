@@ -10,7 +10,7 @@ public class CorsConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-                .allowedOrigins("http://localhost:4200, https://front-tarefas-liart.vercel.app, https://front-tarefas-liart.vercel.app/, https://nelsonfjunior.shop/, https://www.nelsonfjunior.shop/, https://nelsonfjunior.shop, https://www.nelsonfjunior.shop")
+                .allowedOrigins("http://localhost:4200, https://front-tarefas-liart.vercel.app, https://front-tarefas-liart.vercel.app/, https://nelsonfjunior.shop/, https://www.nelsonfjunior.shop/, https://nelsonfjunior.shop, https://www.nelsonfjunior.shop, http://localhost:4200, https://18.117.86.165/, https://18.117.86.165:8081, https://18.117.86.165:8081/")
                 .allowedMethods("GET", "POST", "DELETE", "PUT");
     }
 }
